@@ -1,0 +1,80 @@
+/* Filme Principal */
+
+.filme-principal {
+	background: linear-gradient(rgba(0, 0, 0, 0.50), rgba(0, 0, 0, 0.50)100%), url("../img/the-mentalist-background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	padding-bottom: 3%;
+}
+
+.filme-principal .container:first-child {
+	width: 45%;
+	text-align: justify;
+	margin-top: 8%;
+	flex-direction: column;
+}
+
+.filme-principal .classificacao {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	letter-spacing: 0.3rem;
+}
+
+.filme-principal .classificacao img {
+	margin-right: 1%;
+	width: 5%;
+}
+
+.filme-principal .classificacao span {
+	font-weight: 700;
+}
+
+.filme-principal .sinopse {
+	margin-top: 3%;
+	margin-bottom: 3%;
+	font-size: 1.1rem;
+}
+
+.filme-principal .botao {
+	background-color: rgba(0, 0, 0, 0.30);
+	border: none;
+	color: white;
+	padding: 3%;
+	margin-right: 2%;
+	font-size: 0.90rem;
+	font-weight: 700;
+	cursor: pointer;
+	transition: 0.5s ease all;
+}
+
+.filme-principal .botao:hover {
+	background-color: white;
+	color: black;
+}
+
+.filme-principal .botao i {
+	margin-right: 10px;
+}
+
+.carrosel-filmes {
+	display: flex;
+	flex-direction: column;
+	margin-top: 1%;
+}
+
+.carrosel-filmes span {
+	margin-bottom: 1%;
+	font-weight: 700;
+}
+
+.box-filme {
+	height: 100%;
+	width: 100%;
+	display: block;
+}

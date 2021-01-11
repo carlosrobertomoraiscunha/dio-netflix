@@ -1,0 +1,60 @@
+/* Navbar */
+
+header {
+	background-color: transparent;
+	margin-top: 2%;
+	position: absolute;
+}
+
+header nav {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav-filmes {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex: 10 0 0;
+}
+
+.nav-filmes * {
+	margin-right: 3%;
+}
+
+.nav-filmes .logo {
+	width: 10%;
+}
+
+.nav-filmes a {
+	text-decoration: none;
+	color: #BFC4C7;
+	font-weight: 700;
+}
+
+.nav-filmes a:hover {
+	color: #AF3131;
+}
+
+.nav-conta {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	font-size: 1.3rem;
+	flex: 1 0 content;
+}
+
+.nav-conta i {
+	cursor: pointer;
+}
+
+.nav-conta i:hover {
+	color: #AF3131;
+}
+
+.nav-conta img {
+	width: 2rem;
+}
